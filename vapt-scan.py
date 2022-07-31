@@ -10,7 +10,7 @@ from pathlib import Path
 ### Variables ###
 today = date.today()
 d1 = today.strftime("%d%m%Y")
-PROJ = "Project Name" # Project Name
+PROJ = "Project Name" # Enter Project Name
 SCAN_URL = "https://example.com"
 ### Variables ###
 
