@@ -28,7 +28,7 @@ Thanks,
 DevOps Team.''')
 
 print("Docker Running ...", end='\r', flush=True)
-command = 'docker run -v $(pwd)/.Report:/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py -t https://ashuuu.ml -g gen.conf -r $(date +"%Y%m%d").html >/dev/null 2>&1'
+command = 'docker run -v $(pwd)/.Report:/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py -t https://example.com -g gen.conf -r $(date +"%Y%m%d").html >/dev/null 2>&1'
 p = os.system(command)
 print("Docker Completed ...", end='', flush=True)
 print()
